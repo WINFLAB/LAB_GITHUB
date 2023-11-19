@@ -3,7 +3,7 @@ name: Convert XLS to CSV
 on:
   push:
     paths:
-      - '*/.xls'
+    - '*/.xls'
 
 jobs:
   convert:
